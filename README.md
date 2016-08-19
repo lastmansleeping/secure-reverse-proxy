@@ -4,7 +4,7 @@
 
 To run the node.js file, use the command
 
-> node <filename>
+> node _filename_
 
 Files:
 
