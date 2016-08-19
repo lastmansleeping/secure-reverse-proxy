@@ -1,0 +1,87 @@
+Results
+...............................
+Number of Requests : 1000
+Concurrency : 100
+...............................
+
+< Authentication System WITH Reverse Proxy >
+
+_________________________________________________________________________________
+First Trial
+Requests per second:    81.86 [#/sec] (mean)
+Time per request:       1221.596 [ms] (mean)
+Time per request:       12.216 [ms] (mean, across all concurrent requests)
+_________________________________________________________________________________
+Second Trial
+Requests per second:    81.68 [#/sec] (mean)
+Time per request:       1224.266 [ms] (mean)
+Time per request:       12.243 [ms] (mean, across all concurrent requests)
+_________________________________________________________________________________
+Third Trial
+Requests per second:    83.71 [#/sec] (mean)
+Time per request:       1194.561 [ms] (mean)
+Time per request:       11.946 [ms] (mean, across all concurrent requests)
+_________________________________________________________________________________
+Fourth Trial
+Requests per second:    85.64 [#/sec] (mean)
+Time per request:       1167.633 [ms] (mean)
+Time per request:       11.676 [ms] (mean, across all concurrent requests)
+_________________________________________________________________________________
+
+
+< Authentication System WITHOUT Reverse Proxy >
+
+_________________________________________________________________________________
+First Trial
+Requests per second:    77.67 [#/sec] (mean)
+Time per request:       1287.468 [ms] (mean)
+Time per request:       12.875 [ms] (mean, across all concurrent requests)
+_________________________________________________________________________________
+Second Trial
+Requests per second:    83.79 [#/sec] (mean)
+Time per request:       1193.474 [ms] (mean)
+Time per request:       11.935 [ms] (mean, across all concurrent requests)
+_________________________________________________________________________________
+Third Trial
+Requests per second:    75.06 [#/sec] (mean)
+Time per request:       1332.188 [ms] (mean)
+Time per request:       13.322 [ms] (mean, across all concurrent requests)
+_________________________________________________________________________________
+Fourth Trial
+Requests per second:    78.59 [#/sec] (mean)
+Time per request:       1272.355 [ms] (mean)
+Time per request:       12.724 [ms] (mean, across all concurrent requests)
+_________________________________________________________________________________
+_________________________________________________________________________________
+_________________________________________________________________________________
+
+< Heavy Requests WITH Reverse Proxy>
+
+
+Heavy Requests Analysis
+10,00,000 iterations per request
+
+Without RP
+_________________________________________________________________________________
+Requests per second:    0.36 [#/sec] (mean)
+Time per request:       2792.405 [ms] (mean)
+Time per request:       2792.405 [ms] (mean, across all concurrent requests)
+
+_________________________________________________________________________________
+Requests per second:    0.36 [#/sec] (mean)
+Time per request:       2813.049 [ms] (mean)
+Time per request:       2813.049 [ms] (mean, across all concurrent requests)
+
+
+
+With RP
+_________________________________________________________________________________
+Requests per second:    0.38 [#/sec] (mean)
+Time per request:       2627.707 [ms] (mean)
+Time per request:       2627.707 [ms] (mean, across all concurrent requests)
+
+_________________________________________________________________________________
+Requests per second:    0.38 [#/sec] (mean)
+Time per request:       2622.684 [ms] (mean)
+Time per request:       2622.684 [ms] (mean, across all concurrent requests)
+_________________________________________________________________________________
