@@ -1,6 +1,5 @@
 #Secure Reverse Proxy
-### Built a reverse proxy server and implemented methods to ensure packet integrity and authenticity between the
-user and the application servers.
+### Built a reverse proxy server and implemented methods to ensure packet integrity and authenticity between the user and the application servers.
 
 
 To run the node.js file, use the command
