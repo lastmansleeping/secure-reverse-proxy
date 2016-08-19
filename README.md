@@ -8,21 +8,15 @@ To run the node.js file, use the command
 
 Files:
 
-* newproxy.js
+* newproxy.js - Session Management System with Reverse Proxy
 
-Session Management System with Reverse Proxy
+* noproxy.js - Session Management System without Reverse Proxy
 
-* noproxy.js
-Session Management System without Reverse Proxy
+* heavyproxy.js - Application to handle heavy requests with Reverse Proxy
 
-* heavyproxy.js
-Application to handle heavy requests with Reverse Proxy
+* heavynoproxy.js - Application to handle heavy requests without Reverse Proxy
 
-* heavynoproxy.js
-Application to handle heavy requests without Reverse Proxy
-
-* icd.js 
-Code to calculate ICD for a given string
+* icd.js - Code to calculate ICD for a given string
 
 
 ###To run benchmark tests using ApacheBench
