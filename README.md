@@ -1,5 +1,7 @@
 #Secure Reverse Proxy
-### Built a reverse proxy server and implemented methods to ensure packet integrity and authenticity between the user and the application servers.
+* Designed a reverse proxy server and implemented methods to ensure packet integrity and authenticity between the user and the application servers.
+* Improved the throughput and latency with both heavy and light loads when compared to a server with no reverse proxy.
+* Tech Stack - Node.js
 
 
 To run the node.js file, use the command
